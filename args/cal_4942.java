@@ -1,12 +1,9 @@
 public class cal_4942 {
     public static void main(String[] args) {
-        // Check if the user provided the correct number of arguments
         if (args.length != 3) {
-            System.out.println("Usage: java SimpleCalculator <num1> <num2> <operator>");
+            System.out.println("follow the format.");
             return;
         }
-
- 
         double num1 = Double.parseDouble(args[0]);
         double num2 = Double.parseDouble(args[1]);
         String operator = args[2];
